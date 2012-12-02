@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>ImageFileName</key>
+		<string>yyyyy.png</string>
+		<key>QuestionTitle</key>
+		<string>First Question Correct Answer is A.</string>
+		<key>A</key>
+		<string>Will get you 100 points</string>
+		<key>B</key>
+		<string>Will give 0 points</string>
+		<key>C</key>
+		<string>Will Give 0 points</string>
+		<key>CorrectAnswer</key>
+		<string>A</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>QuestionTitle</key>
+		<string>Second Question</string>
+		<key>ImageFileName</key>
+		<string>xxxx.png</string>
+		<key>A</key>
+		<string>Wrong Answer</string>
+		<key>B</key>
+		<string>Correct Answer</string>
+		<key>C</key>
+		<string>Wrong Answer</string>
+		<key>CorrectAnswer</key>
+		<string>B</string>
+	</dict>
+</dict>
+</plist>

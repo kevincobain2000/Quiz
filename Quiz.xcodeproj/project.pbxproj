@@ -18,6 +18,8 @@
 		AD2DAA67166B960100A22BC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2DAA66166B960100A22BC5 /* Default-568h@2x.png */; };
 		AD2DAA6A166B960100A22BC5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2DAA68166B960100A22BC5 /* MainStoryboard.storyboard */; };
 		AD2DAA6D166B960100A22BC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2DAA6C166B960100A22BC5 /* ViewController.m */; };
+		AD2DAA75166B96D200A22BC5 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2DAA74166B96D200A22BC5 /* PlayViewController.m */; };
+		AD2DAA77166B990C00A22BC5 /* QuestionsAnswers.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD2DAA76166B990C00A22BC5 /* QuestionsAnswers.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		AD2DAA69166B960100A22BC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AD2DAA6B166B960100A22BC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AD2DAA6C166B960100A22BC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD2DAA73166B96D200A22BC5 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		AD2DAA74166B96D200A22BC5 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		AD2DAA76166B990C00A22BC5 /* QuestionsAnswers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuestionsAnswers.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +88,12 @@
 		AD2DAA56166B960000A22BC5 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				AD2DAA76166B990C00A22BC5 /* QuestionsAnswers.plist */,
 				AD2DAA5F166B960000A22BC5 /* AppDelegate.h */,
 				AD2DAA60166B960000A22BC5 /* AppDelegate.m */,
 				AD2DAA68166B960100A22BC5 /* MainStoryboard.storyboard */,
+				AD2DAA73166B96D200A22BC5 /* PlayViewController.h */,
+				AD2DAA74166B96D200A22BC5 /* PlayViewController.m */,
 				AD2DAA6B166B960100A22BC5 /* ViewController.h */,
 				AD2DAA6C166B960100A22BC5 /* ViewController.m */,
 				AD2DAA57166B960000A22BC5 /* Supporting Files */,
@@ -163,6 +171,7 @@
 				AD2DAA65166B960100A22BC5 /* Default@2x.png in Resources */,
 				AD2DAA67166B960100A22BC5 /* Default-568h@2x.png in Resources */,
 				AD2DAA6A166B960100A22BC5 /* MainStoryboard.storyboard in Resources */,
+				AD2DAA77166B990C00A22BC5 /* QuestionsAnswers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				AD2DAA5D166B960000A22BC5 /* main.m in Sources */,
 				AD2DAA61166B960000A22BC5 /* AppDelegate.m in Sources */,
 				AD2DAA6D166B960100A22BC5 /* ViewController.m in Sources */,
+				AD2DAA75166B96D200A22BC5 /* PlayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +233,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -244,7 +254,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -257,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quiz/Quiz-Prefix.pch";
 				INFOPLIST_FILE = "Quiz/Quiz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quiz/Quiz-Prefix.pch";
 				INFOPLIST_FILE = "Quiz/Quiz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
